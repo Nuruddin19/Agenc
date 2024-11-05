@@ -1,0 +1,1076 @@
+:root {
+  --white-color: #fff;
+  --main-color: #6a4df4;
+  --main-font: "Inter", sans-serif;
+  --fontSizeP: 16px;
+  --colorP: #737373;
+  --black: #151515;
+}
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+  /* =========================navbar-part css start=============================== */
+  .navbar {
+    padding-top: 15px;
+  }
+
+  .navbar .navbar-brand img {
+    height: 26px;
+    object-fit: cover;
+  }
+
+  .navbar .container button {
+    border-color: var(--main-color);
+    outline: none;
+    font-size: 12px;
+    border-radius: 3px;
+    padding: 5px 10px;
+    box-shadow: none;
+  }
+
+  .navbar .container button i {
+    color: var(--main-color);
+  }
+
+  .navbar .container .navbar-collapse {
+    /* From https://css.glass */
+    /* background: rgba(0, 0, 0, 0.67);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.8px);
+    -webkit-backdrop-filter: blur(8.8px); */
+    background-color: #151515;
+    text-align: center;
+    padding: 20px 0;
+    margin: 10px 0;
+    border-radius: 10px;
+  }
+
+  .navbar .container .navbar-collapse .navbar-nav {
+    row-gap: 20px;
+  }
+
+  .navbar .container .navbar-collapse .navbar-nav .nav-link {
+    font-size: 12px;
+  }
+
+  .navbar .container .navbar-collapse .btn {
+    width: 50%;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  /* ==========================navbar-part css end=============================== */
+
+  /* ==========================banner-part css start=============================== */
+  #banner_part .sliderPart .slide {
+    padding: 50px 0 50px;
+  }
+
+  #banner_part .sliderPart .slide h1 {
+    max-width: 319px;
+    font-size: 30px;
+    padding: 0 12px;
+    margin-top: 50px;
+  }
+
+  @media (min-width: 392px) {
+    #banner_part .sliderPart .slide h1 {
+      max-width: 400px;
+    }
+  }
+
+  #banner_part .sliderPart .slide p {
+    padding: 19px 12px 40px 12px;
+    max-width: 300px;
+    line-height: 15px;
+    font-size: 10px;
+  }
+
+  #banner_part .sliderPart .slide .btn {
+    padding: 5px 0;
+    font-size: 12px;
+    width: 50%;
+    border-radius: 5px;
+  }
+
+  #banner_part .sliderPart .slick-dots {
+    bottom: 13px;
+  }
+
+  #banner_part .sliderPart .slick-dots button {
+    width: 12px;
+    height: 12px;
+  }
+
+  #banner_part .sliderPart .slick-dots .slick-active button {
+    border: 1px solid var(--white-color);
+  }
+  /* ==========================banner-part css end=============================== */
+
+  /* ==========================success-part css start=============================== */
+  #success_part {
+    padding: 50px 12px;
+    margin: 0;
+  }
+
+  #success_part .container {
+    padding: 40px 12px;
+  }
+
+  #success_part .container .success p {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  #success_part .container .success h2 {
+    font-size: 16px;
+    text-align: center;
+    max-width: 190px;
+    margin: 15px auto;
+  }
+
+  #success_part .container .success_sibling {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  #success_part .container .success_sibling h1 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  #success_part .container .success_sibling p {
+    max-width: 75px;
+    font-size: 10px;
+    margin-top: 5px;
+  }
+  /* ==========================success-part css end=============================== */
+
+  /* ==========================service_part css start=============================== */
+  #service_part {
+    padding: 50px 12px;
+  }
+
+  #service_part .title h2 {
+    font-size: 30px;
+    margin: 0;
+    font-weight: 500;
+  }
+
+  #service_part .title p {
+    max-width: 270px;
+    line-height: 15px;
+    margin: 15px auto 15px;
+    font-size: 10px;
+  }
+
+  #service_part .container .row {
+    row-gap: 20px;
+    margin-bottom: 50px;
+  }
+
+  #service_part .container .col-lg-4 {
+    padding: 0;
+  }
+
+  #service_part .container .cart {
+    background-color: var(--black);
+    padding: 30px 30px;
+  }
+
+  #service_part .container .cart:hover {
+    box-shadow: none;
+  }
+
+  #service_part .container .cart img {
+    height: 40px;
+  }
+
+  #service_part .container .cart h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 25px 0 5px;
+    color: var(--white-color);
+  }
+
+  #service_part .container .cart p {
+    line-height: 15px;
+    font-size: 10px;
+  }
+  /* ==========================service_part css end=============================== */
+
+  /* ==========================work_part css start=============================== */
+  #work_part {
+    padding: 50px 22px;
+  }
+
+  #work_part .title h2 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  #work_part .title p {
+    max-width: 330px;
+    font-size: 10px;
+    margin: 5px auto 30px;
+  }
+
+  #work_part .container .col-lg-4 {
+    padding: 0;
+  }
+
+  #work_part .container .row {
+    row-gap: 30px;
+  }
+
+  #work_part .container .work_cart {
+    background-color: #adb5bd;
+    margin: 0 auto;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px,
+      rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px,
+      rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  }
+
+  #work_part .container .work_cart:hover {
+    box-shadow: none;
+  }
+
+  #work_part .container .work_cart img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+  }
+
+  #work_part .container .work_cart h3 {
+    font-size: 15px;
+    margin: 20px 0 10px;
+  }
+
+  #work_part .container .work_cart p {
+    line-height: 15px;
+    font-size: 10px;
+    max-width: 200px;
+  }
+  /* ==========================work_part css end=============================== */
+
+  /* ==========================agenc_part css start=============================== */
+  #agenc_part {
+    padding: 50px 12px 0;
+    background-color: var(--white-color);
+  }
+
+  #agenc_part .title h2 {
+    font-size: 30px;
+    font-weight: 500;
+    max-width: 230px;
+  }
+
+  #agenc_part .title p {
+    max-width: 500px;
+    margin: 20px auto 50px;
+    font-size: 10px;
+  }
+
+  #agenc_part .container .agenc_cart img {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+  }
+
+  #agenc_part .container .agenc_cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    margin: 0 auto;
+    box-shadow: 0 0 0 2px #212529, 8px 8px 0 0 #212529;
+    border-radius: 10px;
+  }
+
+  #agenc_part .container .row_gap {
+    margin: 30px auto;
+  }
+
+  #agenc_part .container .agenc_cart h3 {
+    font-family: var(--main-font);
+    color: var(--black);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0 10px;
+  }
+
+  #agenc_part .container .agenc_cart p {
+    line-height: 15px;
+    max-width: 217px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  #agenc_part .container .col-lg-4 img {
+    margin-top: 30px;
+  }
+  /* ==========================agenc_part css end=============================== */
+
+  /* ==========================reviews_part css start=============================== */
+  #reviews_part {
+    padding: 95px 12px 50px;
+  }
+
+  #reviews_part .container {
+    max-width: 1344px;
+    padding: 0;
+  }
+
+  #reviews_part .container .slider .slide {
+    padding: 20px 30px;
+  }
+
+  #reviews_part .container .slider .next {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 10px;
+    right: 0;
+  }
+
+  #reviews_part .container .slider .prev {
+    left: 0;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 10px;
+  }
+
+  #reviews_part .container .title h2 {
+    font-weight: 500;
+    font-size: 30px;
+  }
+
+  #reviews_part .container .title P {
+    max-width: 240px;
+    margin: 20px auto 40px;
+    font-size: 10px;
+  }
+
+  #reviews_part .container .slick-slide img {
+    margin: 0 auto;
+    height: 20px;
+  }
+
+  #reviews_part .container .slider .slide P {
+    margin: 10px auto;
+    line-height: 15px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  #reviews_part .container .slider .icon {
+    text-align: center;
+  }
+
+  #reviews_part .container .slider .slide .icon i {
+    font-size: 10px;
+  }
+
+  #reviews_part .container .slider .client {
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+  }
+
+  #reviews_part .container .slider .slide .client img {
+    margin: 10px auto;
+    height: 40px;
+    width: 40px;
+  }
+
+  #reviews_part .container .slider .client h5 {
+    font-size: 15px;
+  }
+
+  #reviews_part .container .slider .client span {
+    font-size: 10px;
+  }
+  /* ==========================reviews_part css end=============================== */
+
+  /* ==========================form_part css start=============================== */
+  #form_part {
+    padding: 50px 12px;
+  }
+
+  #form_part .container .form_left h2 {
+    max-width: 275px;
+    font-size: 29px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  #form_part .container .form_left p {
+    margin: 10px auto 11px;
+    font-size: 10px;
+    text-align: center;
+    max-width: 380px;
+  }
+
+  #form_part .container .form_left .p {
+    margin: 10px auto 11px;
+    font-size: 10px;
+    text-align: center;
+    max-width: 380px;
+  }
+
+  #form_part .container form {
+    padding: 38px 20px 50px;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+
+  #form_part .container form h3 {
+    font-size: 20px;
+  }
+
+  #form_part .container form label {
+    font-size: 13px;
+  }
+
+  #form_part .container form input {
+    border-radius: 5px;
+    padding: 10px 23px;
+    margin-bottom: 20px;
+    line-height: 15px;
+    font-size: 13px;
+  }
+
+  #form_part .container form button {
+    padding: 15px 0;
+    font-size: 13px;
+  }
+  /* ==========================form_part css end=============================== */
+
+  /* ==========================footer_part css start=============================== */
+  #footer_part {
+    margin: 0;
+    padding: 50px 12px 0;
+  }
+
+  #footer_part .container {
+    padding: 0;
+  }
+
+  #footer_part .row {
+    margin: 0 0 50px;
+  }
+
+  #footer_part .row .footer_left {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #footer_part .row .footer_left img {
+    margin: 0 auto;
+    height: 30px;
+  }
+
+  #footer_part .container .col-lg-8 {
+    padding: 0;
+  }
+
+  #footer_part .footer_left p {
+    max-width: 250px;
+    margin: 20px auto;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  #footer_part .footer_right {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    row-gap: 20px;
+    justify-content: center;
+  }
+
+  #footer_part .footer_right div {
+    margin: 0 10px;
+  }
+
+  #footer_part .footer_right h4 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  #footer_part .footer_right ul li {
+    line-height: 15px;
+    font-size: 10px;
+  }
+
+  #footer_part .container .p {
+    padding: 25px 0;
+    font-size: 10px;
+  }
+  /* ==========================footer_part css end=============================== */
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* =========================navbar-part css start=============================== */
+  .navbar {
+    padding-top: 15px;
+  }
+
+  .navbar .navbar-brand img {
+    height: 26px;
+    object-fit: cover;
+  }
+
+  .navbar .container button {
+    border-color: var(--main-color);
+    outline: none;
+    font-size: 12px;
+    border-radius: 3px;
+    padding: 5px 10px;
+    box-shadow: none;
+  }
+
+  .navbar .container button i {
+    color: var(--main-color);
+  }
+
+  .navbar .container .navbar-collapse {
+    /* From https://css.glass */
+    /* background: rgba(0, 0, 0, 0.67);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.8px);
+    -webkit-backdrop-filter: blur(8.8px); */
+    background-color: #151515;
+    text-align: center;
+    padding: 20px 0;
+    margin: 10px 0;
+    border-radius: 10px;
+  }
+
+  .navbar .container .navbar-collapse .navbar-nav {
+    row-gap: 20px;
+  }
+
+  .navbar .container .navbar-collapse .navbar-nav .nav-link {
+    font-size: 12px;
+  }
+
+  .navbar .container .navbar-collapse .btn {
+    width: 50%;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  /* ==========================navbar-part css end=============================== */
+
+  /* ==========================banner-part css start=============================== */
+  #banner_part .sliderPart .slide {
+    padding: 50px 0 50px;
+  }
+
+  #banner_part .sliderPart .slide h1 {
+    max-width: 319px;
+    font-size: 30px;
+    padding: 0 12px;
+    margin-top: 50px;
+  }
+
+  @media (min-width: 392px) {
+    #banner_part .sliderPart .slide h1 {
+      max-width: 400px;
+    }
+  }
+
+  #banner_part .sliderPart .slide p {
+    padding: 19px 12px 40px 12px;
+    max-width: 300px;
+    line-height: 15px;
+    font-size: 10px;
+  }
+
+  #banner_part .sliderPart .slide .btn {
+    padding: 5px 0;
+    font-size: 12px;
+    width: 50%;
+    border-radius: 5px;
+  }
+
+  #banner_part .sliderPart .slick-dots {
+    bottom: 13px;
+  }
+
+  #banner_part .sliderPart .slick-dots button {
+    width: 12px;
+    height: 12px;
+  }
+
+  #banner_part .sliderPart .slick-dots .slick-active button {
+    border: 1px solid var(--white-color);
+  }
+  /* ==========================banner-part css end=============================== */
+
+  /* ==========================success-part css start=============================== */
+  #success_part {
+    padding: 50px 12px;
+    margin: 0;
+  }
+
+  #success_part .container {
+    padding: 40px 12px;
+  }
+
+  #success_part .container .success p {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  #success_part .container .success h2 {
+    font-size: 16px;
+    text-align: center;
+    max-width: 190px;
+    margin: 15px auto;
+  }
+
+  #success_part .container .success_sibling {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  #success_part .container .success_sibling h1 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  #success_part .container .success_sibling p {
+    max-width: 75px;
+    font-size: 10px;
+    margin-top: 5px;
+  }
+  /* ==========================success-part css end=============================== */
+
+  /* ==========================service_part css start=============================== */
+  #service_part {
+    padding: 50px 12px;
+  }
+
+  .container,
+  .container-sm {
+    max-width: 100%;
+  }
+
+  #service_part .title h2 {
+    font-size: 30px;
+    margin: 0;
+    font-weight: 500;
+  }
+
+  #service_part .title p {
+    max-width: 270px;
+    line-height: 15px;
+    margin: 15px auto 15px;
+    font-size: 10px;
+  }
+
+  #service_part .container .row {
+    margin-bottom: 50px;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+  }
+
+  #service_part .container .col-lg-4 {
+    padding: 0;
+    width: 49%;
+  }
+
+  #service_part .container .cart {
+    background-color: var(--black);
+    padding: 30px 30px;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  #service_part .container .cart:hover {
+    box-shadow: none;
+  }
+
+  #service_part .container .cart img {
+    height: 40px;
+  }
+
+  #service_part .container .cart h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 25px 0 5px;
+    color: var(--white-color);
+  }
+
+  #service_part .container .cart p {
+    line-height: 15px;
+    font-size: 10px;
+  }
+  /* ==========================service_part css end=============================== */
+
+  /* ==========================work_part css start=============================== */
+  #work_part {
+    padding: 50px 12px;
+  }
+
+  #work_part .title h2 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  #work_part .title p {
+    max-width: 330px;
+    font-size: 10px;
+    margin: 5px auto 30px;
+  }
+
+  #work_part .container .col-lg-4 {
+    padding: 0;
+    width: 49%;
+  }
+
+  #work_part .container .row {
+    gap: 10px;
+    justify-content: center;
+  }
+
+  #work_part .container .work_cart {
+    background-color: #adb5bd;
+    /* box-shadow: rgba(240, 46, 170, 0.4) 5px 5px,
+      rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px,
+      rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px; */
+  }
+
+  #work_part .container .work_cart:hover {
+    box-shadow: none;
+  }
+
+  #work_part .container .work_cart img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+  }
+
+  #work_part .container .work_cart h3 {
+    font-size: 15px;
+    margin: 20px 0 10px;
+  }
+
+  #work_part .container .work_cart p {
+    line-height: 15px;
+    font-size: 10px;
+    max-width: 200px;
+  }
+  /* ==========================work_part css end=============================== */
+
+  /* ==========================agenc_part css start=============================== */
+  #agenc_part {
+    padding: 50px 12px 0;
+    /* background-color: var(--white-color); */
+    background: url(../images/Agenc_images/banner_img.jpg) no-repeat center /
+      cover;
+    position: relative;
+    z-index: 1;
+  }
+
+  #agenc_part:after {
+    content: "";
+    background-color: rgba(21, 21, 21, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+  }
+
+  #agenc_part .row {
+    row-gap: 10px;
+  }
+
+  #agenc_part .title h2 {
+    font-size: 30px;
+    font-weight: 500;
+    max-width: 230px;
+    color: var(--black);
+  }
+
+  #agenc_part .col-lg-3 {
+    padding: 0;
+    display: flex;
+    column-gap: 20px;
+  }
+
+  #agenc_part .title p {
+    max-width: 500px;
+    margin: 20px auto 50px;
+    font-size: 10px;
+    color: #212529;
+  }
+
+  #agenc_part .container .agenc_cart img {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+  }
+
+  #agenc_part .container .agenc_cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    margin: 0;
+    box-shadow: 0 0 0 2px #212529, 8px 8px 0 0 #212529;
+    border-radius: 10px;
+    width: 48%;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  #agenc_part .container .row_gap {
+    margin: 0;
+  }
+
+  #agenc_part .container .agenc_cart h3 {
+    font-family: var(--main-font);
+    color: var(--black);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0 10px;
+    color: var(--black);
+  }
+
+  #agenc_part .container .agenc_cart p {
+    line-height: 15px;
+    max-width: 217px;
+    font-size: 10px;
+    text-align: center;
+    color: #212529;
+  }
+
+  #agenc_part .container .col-lg-4 img {
+    margin-top: 30px;
+    display: none;
+  }
+  /* ==========================agenc_part css end=============================== */
+
+  /* ==========================reviews_part css start=============================== */
+  #reviews_part {
+    padding: 95px 0px 50px;
+  }
+
+  #reviews_part .container {
+    max-width: 1344px;
+    padding: 0px;
+  }
+
+  #reviews_part .container .slider .slide {
+    padding: 20px 30px;
+    background: #151515;
+  }
+
+  #reviews_part .container .slider .next {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 10px;
+    right: 12px;
+  }
+
+  #reviews_part .container .slider .prev {
+    left: 12px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 10px;
+  }
+
+  #reviews_part .container .title h2 {
+    font-weight: 500;
+    font-size: 30px;
+  }
+
+  #reviews_part .container .title P {
+    max-width: 240px;
+    margin: 20px auto 40px;
+    font-size: 10px;
+  }
+
+  #reviews_part .container .slick-list {
+    padding: 0 !important;
+  }
+
+  #reviews_part .container .slick-slide img {
+    margin: 0 auto;
+    height: 20px;
+  }
+
+  #reviews_part .container .slider .slide P {
+    margin: 10px auto;
+    line-height: 15px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  #reviews_part .container .slider .icon {
+    text-align: center;
+  }
+
+  #reviews_part .container .slider .slide .icon i {
+    font-size: 10px;
+  }
+
+  #reviews_part .container .slider .client {
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+  }
+
+  #reviews_part .container .slider .slide .client img {
+    margin: 10px auto;
+    height: 40px;
+    width: 40px;
+  }
+
+  #reviews_part .container .slider .client h5 {
+    font-size: 15px;
+    color: white;
+  }
+
+  #reviews_part .container .slider .client span {
+    font-size: 10px;
+  }
+  /* ==========================reviews_part css end=============================== */
+
+  /* ==========================form_part css start=============================== */
+  #form_part {
+    padding: 50px 12px;
+  }
+
+  #form_part .container .form_left h2 {
+    max-width: 275px;
+    font-size: 29px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  #form_part .container .form_left p {
+    margin: 10px auto 11px;
+    font-size: 10px;
+    text-align: center;
+    max-width: 380px;
+  }
+
+  #form_part .container .form_left .p {
+    margin: 10px auto 11px;
+    font-size: 10px;
+    text-align: center;
+    max-width: 380px;
+  }
+
+  #form_part .container form {
+    padding: 38px 20px 50px;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+
+  #form_part .container form h3 {
+    font-size: 20px;
+  }
+
+  #form_part .container form label {
+    font-size: 13px;
+  }
+
+  #form_part .container form input {
+    border-radius: 5px;
+    padding: 10px 23px;
+    margin-bottom: 20px;
+    line-height: 15px;
+    font-size: 13px;
+  }
+
+  #form_part .container form button {
+    padding: 15px 0;
+    font-size: 13px;
+  }
+  /* ==========================form_part css end=============================== */
+
+  /* ==========================footer_part css start=============================== */
+  #footer_part {
+    margin: 0;
+    padding: 50px 12px 0;
+  }
+
+  #footer_part .container {
+    padding: 0;
+  }
+
+  #footer_part .row {
+    margin: 0 0 50px;
+  }
+
+  #footer_part .row .footer_left {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #footer_part .row .footer_left img {
+    margin: 0 auto;
+    height: 30px;
+  }
+
+  #footer_part .container .col-lg-8 {
+    padding: 0;
+  }
+
+  #footer_part .footer_left p {
+    max-width: 250px;
+    margin: 20px auto 40px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  #footer_part .footer_right {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    row-gap: 20px;
+    justify-content: center;
+    column-gap: 40px;
+  }
+
+  #footer_part .footer_right div {
+    margin: 0 10px;
+  }
+
+  #footer_part .footer_right h4 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  #footer_part .footer_right ul li {
+    line-height: 15px;
+    font-size: 10px;
+  }
+
+  #footer_part .container .p {
+    padding: 25px 0;
+    font-size: 10px;
+  }
+  /* ==========================footer_part css end=============================== */
+}
